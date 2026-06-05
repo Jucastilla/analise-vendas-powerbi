@@ -1,115 +1,96 @@
-# Calculadora em Python e Linux
+# Dashboard de Análise Estratégica de Vendas no Power BI
 
 ## Sobre o Projeto
 
-Este projeto foi desenvolvido com o objetivo de aplicar conceitos fundamentais de lógica de programação, automação em linha de comando e execução de scripts em ambientes Linux.
+Este projeto foi desenvolvido utilizando Power BI com o objetivo de transformar dados brutos de vendas em informações estratégicas para apoio à tomada de decisão.
 
-A solução contempla a criação de uma calculadora funcional utilizando Python e Shell Script, permitindo a realização de operações matemáticas básicas e demonstrando conhecimentos em desenvolvimento, execução de scripts e gerenciamento de permissões em sistemas Linux.
+O trabalho contemplou todas as etapas de construção de uma solução de Business Intelligence, desde a preparação dos dados até a criação de dashboards e geração de insights de negócio.
 
 ## Etapas Desenvolvidas
 
-### 1. Desenvolvimento da Calculadora em Python
+### 1. Tratamento e Preparação dos Dados (Power Query)
 
-Foi desenvolvido um script em Python capaz de realizar operações matemáticas básicas por meio da interação com o usuário.
+Foi realizada a preparação dos dados utilizando o Power Query, incluindo:
 
-O projeto contemplou:
+* Validação da qualidade dos dados;
+* Ajuste de tipos de dados;
+* Padronização de colunas;
+* Tratamento de inconsistências;
+* Estruturação das tabelas para análise;
+* Aplicação das transformações necessárias para carregamento no modelo.
 
-* Entrada e validação de dados;
-* Operações matemáticas fundamentais;
-* Estruturas condicionais;
-* Estruturas de repetição;
-* Manipulação de variáveis;
-* Interação via terminal.
+### 2. Modelagem de Dados
 
-### 2. Implementação da Lógica de Execução
+Após a preparação dos dados, foi realizada a modelagem dimensional do projeto, organizando os relacionamentos entre tabelas de fatos e dimensões para garantir consistência nas análises e desempenho adequado do relatório.
 
-A calculadora foi estruturada para permitir múltiplas operações durante uma mesma execução.
+Foram utilizados conceitos de:
 
-Foram utilizados conceitos como:
+* Modelagem dimensional;
+* Relacionamentos entre tabelas;
+* Cardinalidade;
+* Direção de filtros;
+* Estruturação de modelo analítico.
 
-* Laço `while`;
-* Conversão de tipos de dados;
-* Tratamento de números inteiros e decimais;
-* Fluxo de controle da aplicação.
+### 3. Criação de Métricas em DAX
 
-### 3. Execução em Ambiente Linux
+Foram desenvolvidas medidas utilizando DAX para cálculo dos principais indicadores de desempenho (KPIs), incluindo:
 
-Além da implementação em Python, o projeto também foi executado em ambiente Linux utilizando WSL (Windows Subsystem for Linux) e Ubuntu.
+* Receita Total;
+* Custo Total;
+* Lucro Total;
+* Margem de Lucro;
+* Total de Unidades Vendidas.
 
-Durante o desenvolvimento foram aplicados conceitos relacionados a:
+### 4. Desenvolvimento do Dashboard
 
-* Navegação em terminal;
-* Manipulação de arquivos;
-* Execução de scripts;
-* Utilização do editor Nano;
-* Gerenciamento de permissões.
+Foi construído um dashboard utilizando diferentes recursos visuais do Power BI.
 
-### 4. Criação do Script Shell
+#### Indicadores (KPIs)
 
-Foi desenvolvido um script Shell para execução da calculadora diretamente pelo terminal Linux.
+* Receita Total
+* Custo Total
+* Lucro Total
+* Margem de Lucro
+* Unidades Vendidas
 
-Entre os comandos utilizados estão:
+#### Gráficos
 
-#### Criação do Arquivo
+* Receita por País
+* Desempenho dos Vendedores
+* Produtos com Maior Receita
+* Volume de Vendas por País
 
-```bash
-nano calculadora.sh
-```
+#### Tabelas Analíticas
 
-#### Alteração de Permissões
+* Resumo Financeiro por País
+* Detalhamento dos Produtos
 
-```bash
-chmod +x calculadora.sh
-```
+### 5. Análise de Negócio
 
-#### Execução Direta
+A partir dos dados processados foram identificados os seguintes insights:
 
-```bash
-./calculadora.sh
-```
-
-#### Execução via Bash
-
-```bash
-bash calculadora.sh
-```
-
-### 5. Gerenciamento de Permissões
-
-Durante o projeto foram aplicados conceitos de permissões de arquivos no Linux.
-
-Foi utilizada a configuração:
-
-```bash
-chmod 644 calculadora.sh
-```
-
-Nessa configuração:
-
-* Proprietário: leitura e escrita;
-* Grupo: leitura;
-* Outros usuários: leitura.
-
-Como o arquivo não possui permissão de execução direta, sua execução ocorre através do interpretador Bash.
+* A Argentina apresentou o maior faturamento entre os países analisados.
+* A Colômbia aparece como segundo maior mercado em receita.
+* Ellen Viana foi a representante com melhor desempenho comercial.
+* Escova e Coleira foram os produtos com maior participação no faturamento.
+* Brasil e Peru apresentaram os menores volumes de vendas, indicando oportunidades de crescimento.
+* Foram comercializadas aproximadamente 4 milhões de unidades.
+* A receita total estimada alcançou 13 bilhões.
+* A margem de lucro permaneceu próxima de 69% em todos os países analisados, indicando estabilidade operacional e eficiência na gestão de custos.
 
 ## Habilidades Demonstradas
 
-* Python
-* Shell Script
-* Linux
-* Ubuntu
-* WSL
-* Lógica de Programação
-* Estruturas Condicionais
-* Estruturas de Repetição
-* Manipulação de Variáveis
-* Linha de Comando
-* Terminal Linux
-* Gerenciamento de Permissões
-* Automação Básica
+* Power BI
+* Power Query
+* Modelagem de Dados
+* DAX
+* Business Intelligence
+* Data Visualization
+* Análise de Dados
+* Criação de Dashboards
+* Storytelling com Dados
+* Geração de Insights para Negócios
 
 ## Arquivos do Projeto
 
-📄 [calculadora.py](calculadora.py)
-
-📄 [calculadora.sh](calculadora.sh)
+📄 [Dashboard_Analise_Vendas_PowerBI.pdf](Dashboard_Analise_Vendas_PowerBI.pdf)
