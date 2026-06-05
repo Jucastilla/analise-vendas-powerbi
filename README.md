@@ -1,4 +1,4 @@
-# Análise Estratégica de Vendas em Power BI
+# Análise Estratégica de Vendas com Power BI
 
 ## Sobre o Projeto
 
