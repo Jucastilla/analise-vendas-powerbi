@@ -1,4 +1,4 @@
-# Dashboard de Análise Estratégica de Vendas no Power BI
+# Análise Estratégica de Vendas em Power BI
 
 ## Sobre o Projeto
 
