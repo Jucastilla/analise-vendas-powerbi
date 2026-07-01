@@ -4,7 +4,7 @@
 
 Este projeto foi desenvolvido utilizando Power BI com o objetivo de transformar dados brutos de vendas em informações estratégicas para apoio à tomada de decisão.
 
-O trabalho contemplou todas as etapas de construção de uma solução de Business Intelligence, desde a preparação dos dados até a criação de dashboards e geração de insights de negócio.
+O projeto contemplou todas as etapas de construção de uma solução de Business Intelligence, desde a preparação dos dados até a criação de dashboards e geração de análises para acompanhamento de indicadores e desempenho comercial.
 
 ## Etapas Desenvolvidas
 
