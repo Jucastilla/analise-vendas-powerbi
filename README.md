@@ -93,4 +93,4 @@ A partir dos dados processados foram identificados os seguintes insights:
 
 ## Arquivos do Projeto
 
-📄 [Dashboard_Analise_Vendas_PowerBI.pdf](Dashboard_Analise_Vendas_PowerBI.pdf)
+📄 [Dashboard_Analise_Vendas_PowerBI](Dashboard_Analise_Vendas_PowerBI.pdf)
