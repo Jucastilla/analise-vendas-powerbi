@@ -115,24 +115,25 @@ Os principais arquivos do projeto estão organizados entre o dashboard desenvolv
 
 ### Dashboard
 
-📊 **Dashboard - Análise Estratégica de Vendas com Power BI**
-
-`dashboard/Dashboard_Analise_Vendas_PowerBI.pbix`
+📊 [Dashboard - Análise Estratégica de Vendas com Power BI](https://github.com/Jucastilla/analise-vendas-powerbi/blob/main/dashboard/Dashboard_Analise_Vendas_PowerBI.pbix)
 
 Arquivo original do Power BI contendo o processo desenvolvido no projeto, incluindo as transformações realizadas no Power Query, o modelo de dados, as métricas e o dashboard.
 
-📄 **Dashboard em PDF**
-
-`dashboard/Dashboard_Analise_Vendas_PowerBI.pdf`
+📄 [Visualizar Dashboard em PDF](https://github.com/Jucastilla/analise-vendas-powerbi/blob/main/dashboard/Dashboard_Analise_Vendas_PowerBI.pdf)
 
 Versão em PDF do dashboard, disponibilizada para facilitar a visualização dos resultados sem a necessidade de utilizar o Power BI Desktop.
 
 ### Dados
 
-📁 **Dados Originais do Projeto**
+📁 [Acessar Dados Originais do Projeto](https://github.com/Jucastilla/analise-vendas-powerbi/tree/main/data/raw)
 
-`data/raw/`
+A pasta contém as seis bases originais em formato Excel utilizadas no desenvolvimento do projeto:
 
-A pasta contém as seis bases originais em formato Excel utilizadas no desenvolvimento do projeto: categorias, geografia, produtos, representantes de vendas, subcategorias e vendas.
+- `Categorias.xlsx`
+- `Geografia.xlsx`
+- `Produto.xlsx`
+- `RepresentanteVendas.xlsx`
+- `SubCategorias.xlsx`
+- `Vendas.xlsx`
 
 Esses arquivos representam as fontes de dados que foram importadas, tratadas e integradas no Power BI para construção do modelo e desenvolvimento das análises.
