@@ -93,4 +93,8 @@ A partir dos dados processados foram identificados os seguintes insights:
 
 ## Arquivos do Projeto
 
-📄 [Dashboard_Analise_Vendas_PowerBI](Dashboard_Analise_Vendas_PowerBI.pdf)
+Os arquivos do projeto estão disponíveis na pasta `dashboard`, incluindo o arquivo original desenvolvido no Power BI e a versão exportada em PDF.
+
+📊 [Arquivo original do projeto em Power BI](dashboard/Dashboard_Analise_Vendas_PowerBI.pbix)
+
+📄 [Dashboard - Análise Estratégica de Vendas](dashboard/Dashboard_Analise_Vendas_PowerBI.pdf)
