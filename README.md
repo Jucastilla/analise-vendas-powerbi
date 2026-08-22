@@ -1,6 +1,4 @@
-# Projeto de Business Intelligence | Power BI
-
-## Análise Estratégica de Vendas com Power BI
+# Análise Estratégica de Vendas
 
 ## Sobre o Projeto
 
