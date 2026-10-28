@@ -1,53 +1,54 @@
 # Análise Estratégica de Vendas
 
-## Sobre o Projeto
+## Contexto
 
-Este projeto foi desenvolvido durante a formação em Análise de Dados da EBAC, com o objetivo de construir um relatório de Business Intelligence no Power BI a partir de dados de vendas distribuídos em diferentes arquivos Excel.
+Este projeto foi desenvolvido durante a formação em **Análise de Dados da EBAC**, utilizando dados de vendas distribuídos em seis arquivos Excel.
 
-O desenvolvimento foi realizado no **Power BI Desktop**, utilizando o **Power Query** para preparação e transformação dos dados e o Power BI para modelagem, criação de métricas, indicadores e desenvolvimento do dashboard.
+As bases continham informações sobre vendas, produtos, categorias, subcategorias, localização geográfica e representantes de vendas.
 
-Para o projeto, foram utilizadas bases contendo informações relacionadas a vendas, produtos, categorias, subcategorias, localização geográfica e representantes de vendas.
-
-O fluxo desenvolvido contempla a importação e integração das diferentes fontes de dados, tratamento e padronização no Power Query, construção do modelo de dados, criação de métricas e indicadores e desenvolvimento de visualizações para análise do desempenho comercial.
+O desenvolvimento foi realizado no **Power BI Desktop**, com o **Power Query** para preparação e transformação das bases e os recursos do Power BI para modelagem dos dados, criação de métricas e desenvolvimento do dashboard.
 
 ## Objetivo
 
-Construir um dashboard de vendas no Power BI capaz de integrar diferentes fontes de dados e apresentar indicadores relevantes para análise do desempenho comercial.
+Construir um dashboard de vendas capaz de integrar as diferentes bases e apresentar indicadores de receita, custos, lucro, margem e desempenho comercial.
 
-O projeto também busca demonstrar a utilização do Power Query e Power BI na preparação, integração e modelagem dos dados, além da criação de métricas e visualizações para análise de vendas, custos, lucro e desempenho comercial.
+O projeto também teve como objetivo aplicar conceitos de preparação, integração e modelagem de dados, permitindo analisar as vendas por produtos, regiões e representantes.
 
-## Etapas Desenvolvidas
+## Desenvolvimento
 
-### 1. Preparação e Carregamento dos Dados
+### Fontes de Dados
 
-Os dados utilizados no projeto estavam distribuídos em diferentes arquivos Excel, que foram importados para o **Power BI Desktop**.
+Foram utilizadas seis bases em formato Excel:
 
-O **Power Query** foi utilizado para preparar e organizar as bases antes da construção do modelo de dados.
+- `Categorias.xlsx`;
+- `Geografia.xlsx`;
+- `Produto.xlsx`;
+- `RepresentanteVendas.xlsx`;
+- `SubCategorias.xlsx`;
+- `Vendas.xlsx`.
 
-Durante essa etapa, foram realizados procedimentos de tratamento e padronização dos dados, incluindo a verificação dos tipos de dados, organização das colunas e preparação das tabelas utilizadas no modelo.
+Os arquivos foram importados para o Power BI Desktop e utilizados na construção do modelo de dados.
 
-### 2. Fonte e Exploração dos Dados
+### Preparação e Transformação dos Dados
 
-Foram utilizadas seis bases de dados em formato Excel:
+O **Power Query** foi utilizado para preparar e organizar as bases antes da modelagem.
 
-- `Categorias.xlsx`
-- `Geografia.xlsx`
-- `Produto.xlsx`
-- `RepresentanteVendas.xlsx`
-- `SubCategorias.xlsx`
-- `Vendas.xlsx`
+Durante essa etapa, foram realizados:
 
-As bases reúnem informações relacionadas às diferentes dimensões necessárias para a análise comercial, incluindo produtos, categorias, subcategorias, localização geográfica, representantes e registros de vendas.
+- Verificação dos tipos de dados;
+- Organização das colunas;
+- Padronização dos dados;
+- Preparação das tabelas utilizadas no modelo.
 
-Os arquivos originais foram integrados no Power BI e utilizados na construção do modelo de dados do projeto.
+### Modelagem dos Dados
 
-### 3. Modelagem e Desenvolvimento das Métricas
+Após o tratamento das bases, foram estabelecidos relacionamentos entre as tabelas para conectar as informações dos diferentes arquivos.
 
-Após o tratamento das bases no Power Query, os dados foram organizados no modelo do Power BI para permitir a análise das informações de vendas.
+A modelagem integrou os registros de vendas às informações de produtos, categorias, subcategorias, localização geográfica e representantes, permitindo utilizar essas dimensões nas análises.
 
-Foram utilizadas relações entre as tabelas para conectar as informações presentes nas diferentes bases.
+### Criação de Métricas e Indicadores
 
-Também foram desenvolvidas métricas e indicadores para análise do desempenho comercial, contemplando informações relacionadas a:
+Foram desenvolvidas métricas e indicadores relacionados a:
 
 - Receita;
 - Custos;
@@ -55,83 +56,77 @@ Também foram desenvolvidas métricas e indicadores para análise do desempenho 
 - Margem;
 - Desempenho de vendas.
 
-As métricas foram utilizadas nas diferentes visualizações desenvolvidas no dashboard.
+Essas métricas foram utilizadas nas visualizações do dashboard para acompanhar e comparar os resultados comerciais.
 
-### 4. Desenvolvimento do Dashboard e Análise dos Resultados
+### Desenvolvimento do Dashboard
 
-O dashboard foi desenvolvido no **Power BI** com o objetivo de apresentar os principais indicadores comerciais de forma visual e facilitar a análise dos resultados.
+O dashboard foi construído no **Power BI**, reunindo os principais indicadores comerciais em uma apresentação visual.
 
-Foram utilizadas diferentes visualizações para explorar o desempenho das vendas sob diferentes perspectivas, permitindo analisar informações relacionadas a produtos, regiões, representantes e desempenho comercial.
+Foram desenvolvidas visualizações para analisar as vendas sob diferentes perspectivas, incluindo produtos, regiões e representantes.
 
-A organização do relatório possibilita acompanhar os principais indicadores e comparar diferentes dimensões presentes nas bases utilizadas.
+Também foi elaborado um resumo textual dos resultados, registrando os principais pontos identificados durante a análise e apoiando a interpretação das informações apresentadas.
 
-Também foi desenvolvido um resumo textual dos resultados, permitindo registrar os principais pontos identificados durante a análise e apoiar a interpretação das informações apresentadas no dashboard.
+### Validação dos Dados
 
-### 5. Validação dos Dados
+Durante a preparação e organização das bases, foram realizadas verificações de consistência das informações utilizadas no modelo, incluindo:
 
-Durante a preparação dos dados, foram realizadas verificações para garantir a consistência das informações utilizadas no modelo.
+- Conferência da estrutura das tabelas;
+- Verificação dos tipos de dados;
+- Padronização das colunas;
+- Conferência dos relacionamentos entre as bases.
 
-O processo incluiu a conferência da estrutura das tabelas, tipos de dados, padronização das colunas e relacionamento entre as diferentes bases.
+## Resultados
 
-A organização das tabelas no Power BI permitiu integrar as informações provenientes dos diferentes arquivos Excel e utilizá-las de forma consistente nas métricas e visualizações desenvolvidas.
+Foi desenvolvido um relatório de Business Intelligence que integra seis arquivos Excel em um modelo de dados no Power BI.
 
-### 6. Conclusões
+O dashboard reúne indicadores de receita, custos, lucro, margem e desempenho de vendas, permitindo acompanhar os resultados e comparar informações por produtos, regiões e representantes.
 
-O projeto permitiu desenvolver um fluxo completo de Business Intelligence utilizando o Power BI, desde a preparação das bases até a construção do dashboard final.
+As entregas incluem o arquivo original do Power BI, uma versão do dashboard em PDF e um resumo textual dos resultados da análise.
 
-A utilização do Power Query possibilitou integrar e preparar os diferentes arquivos Excel, enquanto a modelagem dos dados e a criação de métricas permitiram estruturar as informações necessárias para análise.
-
-O dashboard desenvolvido permite acompanhar indicadores relacionados a vendas, custos, lucro e desempenho comercial, além de analisar os resultados sob diferentes perspectivas.
-
-De forma geral, o projeto demonstra a aplicação conjunta de **Power BI, Power Query, modelagem de dados e métricas** na construção de uma solução de Business Intelligence voltada à análise de vendas.
+O projeto permitiu aplicar um fluxo de Business Intelligence, desde a preparação das bases no Power Query até a modelagem, criação de métricas e apresentação das informações em visualizações.
 
 ## Habilidades Demonstradas
 
-- Análise de Dados
-- Business Intelligence
-- Power BI
-- Power Query
-- Excel
-- Modelagem de Dados
-- Integração de Dados
-- Tratamento de Dados
-- Padronização de Dados
-- Relacionamento entre Tabelas
-- Criação de Métricas
-- Indicadores de Desempenho
-- Análise de Vendas
-- Análise de Receita
-- Análise de Custos
-- Análise de Lucro
-- Desenvolvimento de Dashboards
-- Visualização de Dados
-- Documentação Técnica
+- Análise de dados;
+- Business Intelligence;
+- Power BI;
+- Power Query;
+- Excel;
+- Modelagem de dados;
+- Integração de dados;
+- Tratamento e padronização de dados;
+- Relacionamento entre tabelas;
+- Criação de métricas;
+- Indicadores de desempenho;
+- Análise de vendas;
+- Análise de receita;
+- Análise de custos;
+- Análise de lucro;
+- Desenvolvimento de dashboards;
+- Visualização de dados;
+- Documentação técnica.
 
 ## Arquivos do Projeto
 
-Os principais arquivos do projeto estão organizados entre o dashboard desenvolvido no Power BI e as bases originais utilizadas para construção da análise.
+Os arquivos estão organizados entre o dashboard e as bases originais utilizadas na análise.
 
-### Dashboard
+### [Dashboard — Análise Estratégica de Vendas com Power BI](https://github.com/Jucastilla/analise-vendas-powerbi/blob/main/dashboard/Dashboard_Analise_Vendas_PowerBI.pbix)
 
-📊 [Dashboard - Análise Estratégica de Vendas com Power BI](https://github.com/Jucastilla/analise-vendas-powerbi/blob/main/dashboard/Dashboard_Analise_Vendas_PowerBI.pbix)
+Arquivo original do Power BI contendo as transformações realizadas no Power Query, o modelo de dados, as métricas e o dashboard.
 
-Arquivo original do Power BI contendo o processo desenvolvido no projeto, incluindo as transformações realizadas no Power Query, o modelo de dados, as métricas e o dashboard.
+### [Visualizar Dashboard em PDF](https://github.com/Jucastilla/analise-vendas-powerbi/blob/main/dashboard/Dashboard_Analise_Vendas_PowerBI.pdf)
 
-📄 [Visualizar Dashboard em PDF](https://github.com/Jucastilla/analise-vendas-powerbi/blob/main/dashboard/Dashboard_Analise_Vendas_PowerBI.pdf)
+Versão em PDF do dashboard, disponibilizada para visualização dos resultados sem a necessidade de utilizar o Power BI Desktop.
 
-Versão em PDF do dashboard, disponibilizada para facilitar a visualização dos resultados sem a necessidade de utilizar o Power BI Desktop.
+### [Dados Originais do Projeto](https://github.com/Jucastilla/analise-vendas-powerbi/tree/main/data/raw)
 
-### Dados
+Pasta com as seis bases originais em formato Excel:
 
-📁 [Acessar Dados Originais do Projeto](https://github.com/Jucastilla/analise-vendas-powerbi/tree/main/data/raw)
+- `Categorias.xlsx`;
+- `Geografia.xlsx`;
+- `Produto.xlsx`;
+- `RepresentanteVendas.xlsx`;
+- `SubCategorias.xlsx`;
+- `Vendas.xlsx`.
 
-A pasta contém as seis bases originais em formato Excel utilizadas no desenvolvimento do projeto:
-
-- `Categorias.xlsx`
-- `Geografia.xlsx`
-- `Produto.xlsx`
-- `RepresentanteVendas.xlsx`
-- `SubCategorias.xlsx`
-- `Vendas.xlsx`
-
-Esses arquivos representam as fontes de dados que foram importadas, tratadas e integradas no Power BI para construção do modelo e desenvolvimento das análises.
+Esses arquivos foram importados, tratados e integrados no Power BI para construção do modelo e desenvolvimento das análises.
